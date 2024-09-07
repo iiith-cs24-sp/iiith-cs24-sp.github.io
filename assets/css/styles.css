@@ -42,6 +42,13 @@ p {
   overflow-x: auto;
 }
 
+a {
+  color: var(--info-color);
+  font-weight: bold;
+  /* No underline */
+  text-decoration: none;
+}
+
 h1 {
   text-align: center;
   height: 10vh;
@@ -58,6 +65,10 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+}
+
+img {
+  border-radius: 1%;
 }
 
 main {
