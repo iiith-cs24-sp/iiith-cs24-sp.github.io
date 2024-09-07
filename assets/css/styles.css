@@ -40,6 +40,10 @@ h1 {
 	text-align: center;
 }
 
+body>* {
+	width: min(80%, 800px);
+}
+
 button {
 	padding: 10px;
 	background-color: var(--primary-color);
@@ -47,4 +51,8 @@ button {
 	border: none;
 	border-radius: 3px;
 	cursor: pointer;
+}
+
+.danger {
+	background-color: var(--danger-color);
 }
