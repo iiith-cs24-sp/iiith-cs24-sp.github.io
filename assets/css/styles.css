@@ -13,7 +13,7 @@
   --light-foreground: #eee;
   --light-background: #f8f9fa;
   --dark-foreground: #343a40;
-  --dark-background: hwb(0 7% 93%);
+  --dark-background: #111;
 }
 
 body {
