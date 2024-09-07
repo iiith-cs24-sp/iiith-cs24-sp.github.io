@@ -79,3 +79,11 @@ footer {
 .danger {
   background-color: var(--danger-color);
 }
+
+.warning {
+  color: var(--warning-color);
+}
+
+#load_button {
+  width: 100%;
+}

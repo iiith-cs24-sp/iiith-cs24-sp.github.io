@@ -28,7 +28,7 @@
   <body>
     <h1>Welcome, Visitor!</h1>
 
-    <main>
+    <main id="main_content">
       <p>What brings you here today?</p>
 
       <p>You are currently viewing my personal website.</p>
@@ -37,13 +37,40 @@
         <br />
         Whether that is good or bad, I know not. YOU HAVE BEEN WARNED.
       </p>
-    </main>
 
-    <script src="assets/js/load.js"></script>
-    <noscript>
-      <h2>JavaScript is disabled in your browser.</h2>
-      <p>Please enable JavaScript to view this website.</p>
-    </noscript>
+      <p>I created this website <i>reluctantly</i> at my Professor's behest.</p>
+
+      <p>Why the reluctance, you ask?</p>
+
+      <p>
+        I am opposed to the idea of sharing personal information on the
+        internet.
+        <br />
+        <b>
+          <i>
+            Once uploaded, it is out there forever, <br />
+            Echoes of the past, haunting you in the future.
+          </i>
+        </b>
+      </p>
+
+      <p>
+        Click on the button below to continue. It's a simple mechanism to keep
+        the bots away.
+      </p>
+
+      <script src="assets/js/load.js"></script>
+      <div class="warning">
+        <noscript>
+          <b>JavaScript is disabled in your browser.</b>
+          <b>Without it, you may not proceed.</b>
+        </noscript>
+      </div>
+
+      <button id="load_button" onclick="loadPage()" type="button">
+        Continue
+      </button>
+    </main>
 
     <footer>
       <p>&copy; 2024 iiith-cs24-sp.github.io. All rights reserved.</p>
