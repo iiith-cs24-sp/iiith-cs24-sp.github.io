@@ -9,6 +9,7 @@ function loadPage() {
 			// set the innerHTML of the body to the body of the data
 			let newPage = new DOMParser().parseFromString(data, "text/html");
 			console.log(newPage);
+			document.title = newPage.title;
 			document.body.innerHTML = newPage.body.innerHTML;
 		});
 }
